@@ -10,47 +10,65 @@ const SITE_CONFIG = {
     name: 'LibTV',
     url: '',
     description: '免费在线视频搜索与观看平台',
-//    logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
-    logo: 'https://image.baidu.com/search/detail?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&cl=2&cm=1&sc=0&lm=-1&ie=utf8&pn=6&rn=1&di=7498023338351001601&ln=0&word=%E7%94%B5%E8%A7%86%E6%9C%BA%E5%9B%BE%E6%A0%87&os=4269402119,3243420556&cs=1307887523,549895555&objurl=http%3A%2F%2Ft8.baidu.com%2Fit%2Fu%3D1307887523%2C549895555%26fm%3D193&bdtype=0&simid=1307887523,549895555&pi=0&adpicid=0&timingneed=&spn=0&is=0,0&lid=17065007537868283904',
-    version: '1.1.0'
+    logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
+    version: '1.0.0'
 };
 
 // API站点配置
 const API_SITES = {
      heimuer: {
-        api: 'https://www.heimuer.tv',
+        api: 'https://json02.heimuer.xyz',
         name: '木耳',
-        detail: 'https://www.heimuer.tv'
+        detail: 'https://heimuer.xyz'
     },
     tyyszy: {
         api: 'https://tyyszy.com',
         name: '天涯',
-    },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/',
-        name: '樱花',
-    },
-	mdzy: {
-        api: 'https://caiji.moduapi.cc',
-        name: '魔都',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com',
-        name: '卧龙',
-    },
-    cjhw: {
-        api: 'https://cjhwba.com',
-        name: '新华为',
-    },
-    ruyi: {
-        api: 'https://cj.rycjapi.com',
-        name: '如意',
     },
     ckzy: {
         api: 'https://www.ckzy1.com',
         name: 'CK云',
         adult: true
     },
+     mozhua: {
+        api: 'https://mozhuazy.com',
+        name: '魔爪资源',
+    },
+    zy360: {
+        api: 'https://360zy.com',
+        name: '360资源',
+    },
+    wolong: {
+        api: 'https://wolongzyw.com',
+        name: '卧龙资源',
+    },
+    cjhw: {
+        api: 'https://cjhwba.com',
+        name: '新华为',
+    },
+    jisu: {
+        api: 'https://jszyapi.com',
+        name: '极速资源',
+        detail: 'https://jszyapi.com'
+    },
+    dbzy: {
+        api: 'https://dbzy.com',
+        name: '豆瓣资源',
+    },
+    bfzy: {
+        api: 'https://bfzyapi.com',
+        name: '暴风资源',
+    },
+
+    mdzy: {
+        api: 'https://www.mdzyapi.com',
+        name: '魔都资源',
+    },
+    ruyi: {
+        api: 'https://cj.rycjapi.com',
+        name: '如意资源',
+    },
+    
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
@@ -170,4 +188,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
