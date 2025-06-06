@@ -25,10 +25,9 @@ const API_SITES = {
         api: 'https://tyyszy.com',
         name: '天涯',
     },
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK云',
-        adult: true
+    ruyi: {
+        api: 'https://cj.rycjapi.com',
+        name: '如意资源',
     },
      mozhua: {
         api: 'https://mozhuazy.com',
@@ -59,16 +58,16 @@ const API_SITES = {
         api: 'https://bfzyapi.com',
         name: '暴风资源',
     },
-
     mdzy: {
         api: 'https://www.mdzyapi.com',
         name: '魔都资源',
     },
-    ruyi: {
-        api: 'https://cj.rycjapi.com',
-        name: '如意资源',
+
+    ckzy: {
+        api: 'https://www.ckzy1.com',
+        name: 'CK云',
+        adult: true
     },
-    
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
