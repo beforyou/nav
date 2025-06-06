@@ -27,40 +27,40 @@ const API_SITES = {
     },
     ruyi: {
         api: 'https://cj.rycjapi.com',
-        name: '如意资源',
+        name: '如意',
     },
      mozhua: {
         api: 'https://mozhuazy.com',
-        name: '魔爪资源',
+        name: '魔爪',
     },
     zy360: {
         api: 'https://360zy.com',
-        name: '360资源',
+        name: '360云',
     },
     wolong: {
         api: 'https://wolongzyw.com',
-        name: '卧龙资源',
+        name: '卧龙',
     },
     cjhw: {
         api: 'https://cjhwba.com',
-        name: '新华为',
+        name: '新华',
     },
     jisu: {
         api: 'https://jszyapi.com',
-        name: '极速资源',
+        name: '极速',
         detail: 'https://jszyapi.com'
     },
     dbzy: {
         api: 'https://dbzy.com',
-        name: '豆瓣资源',
+        name: '豆瓣',
     },
     bfzy: {
         api: 'https://bfzyapi.com',
-        name: '暴风资源',
+        name: '暴风',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com',
-        name: '魔都资源',
+        name: '魔都',
     },
 
     ckzy: {
@@ -70,37 +70,37 @@ const API_SITES = {
     },
     jkun: {
         api: 'https://jkunzyapi.com',
-        name: 'jkun资源',
+        name: 'jkun',
         adult: true
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
-        name: '百万资源',
+        name: '百万',
         adult: true
     },
     souav: {
         api: 'https://api.souavzy.vip',
-        name: 'souav资源',
+        name: 'souav',
         adult: true
     },
     siwa: {
         api: 'https://siwazyw.tv',
-        name: '丝袜资源',
+        name: '丝袜',
         adult: true
     },
     r155: {
         api: 'https://155api.com',
-        name: '155资源',
+        name: '155',
         adult: true
     },
     lsb: {
         api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
+        name: 'lsb',
         adult: true
     },
     huangcang: {
         api: 'https://hsckzy.vip',
-        name: '黄色仓库',
+        name: '黄仓',
         adult: true,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
     }
