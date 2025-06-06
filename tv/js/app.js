@@ -1,5 +1,5 @@
 // 全局变量
-let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '["mozhua","heimuer","tyyszy","ckzy"]'); // 默认选中API
+let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '["mozhua","heimuer","tyyszy","ruyi"]'); // 默认选中API
 let customAPIs = JSON.parse(localStorage.getItem('customAPIs') || '[]'); // 存储自定义API列表
 
 // 添加当前播放的集数索引
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 设置默认API选择（如果是第一次加载）
     if (!localStorage.getItem('hasInitializedDefaults')) {
         // 仅选择黑木耳源
-        selectedAPIs = ["mozhua","heimuer","tyyszy","ckzy"];
+        selectedAPIs = ["mozhua","heimuer","tyyszy","ruyi"];
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
         
         // 默认选中过滤开关
