@@ -171,7 +171,43 @@
                     </svg>
                     <h1 class="text-5xl font-bold gradient-text">LibreTV</h1>
                 </div>
-                <p class="text-gray-400 mb-8">观君所思，畅享精彩</p>
+              <!--  <p class="text-gray-400 mb-8">观君所思，畅享精彩</p> -->
+		    <div class="hitokoto">
+                    <p id="hitokoto">😀 Loading...</p>——「<span id="from">😀 Loading...</span>」
+                </div>
+        <script async>
+            fetch('https://v1.hitokoto.cn')
+            .then(function (res){
+            return res.json();
+            })
+            .then(function (data) {
+            var hitokoto = document.getElementById('hitokoto');
+            hitokoto.innerText = data.hitokoto;
+            var from = document.getElementById('from');
+            from.innerText = data.from;
+            })
+            .catch(function (err) {
+            console.error(err);
+            })
+        </script>
+        <!--今日诗词-->
+        <script>
+              jinrishici.load(function(result) {
+                var telecopy =  result.data.content;
+                var cursor = "|";
+                var teletype = document.getElementById("search_placeholder");
+                teletype.placeholder = cursor;
+                var counter = 0;
+                var timer = setInterval(function(){
+                    teletype.placeholder = telecopy.substr(0, counter) + cursor;
+                        counter++;
+                        if(counter === telecopy.length + 1) {
+                            clearInterval(timer);
+                        }
+                    }, 100);
+                });
+        </script>
+        <!--今日诗词 placeholder end-->
             </header>
             
             <!-- 搜索区域：默认居中 -->
