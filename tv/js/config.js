@@ -16,57 +16,17 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-     heimuer: {
-        api: 'https://json02.heimuer.xyz',
-        name: '木耳',
-        detail: 'https://heimuer.xyz'
+    sm: {
+        api: 'https://img.smdyw.top',
+        name: '神马',
     },
-    tyyszy: {
-        api: 'https://tyyszy.com',
-        name: '天涯',
-    },
-    ruyi: {
-        api: 'https://cj.rycjapi.com',
-        name: '如意',
-    },
-     mozhua: {
-        api: 'https://mozhuazy.com',
-        name: '魔爪',
-    },
-    zy360: {
-        api: 'https://360zy.com',
-        name: '360云',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com',
-        name: '卧龙',
-    },
-    cjhw: {
-        api: 'https://cjhwba.com',
-        name: '新华',
-    },
-    jisu: {
-        api: 'https://jszyapi.com',
-        name: '极速',
-        detail: 'https://jszyapi.com'
-    },
-    dbzy: {
-        api: 'https://dbzy.com',
-        name: '豆瓣',
-    },
-    bfzy: {
+    bf: {
         api: 'https://bfzyapi.com',
         name: '暴风',
-    },
-    mdzy: {
+    },    
+    md: {
         api: 'https://www.mdzyapi.com',
-        name: '魔都',
-    },
-
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK云',
-        adult: true
+        name: '墨斗',
     },
     jkun: {
         api: 'https://jkunzyapi.com',
@@ -102,7 +62,8 @@ const API_SITES = {
         api: 'https://hsckzy.vip',
         name: '黄仓',
         adult: true,
-        detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
+        detail: 'https://hsckzy.vip' 
+        // 添加detail URL以便特殊处理
     }
 };
 
