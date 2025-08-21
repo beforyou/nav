@@ -17,9 +17,9 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
      heimuer: {
-        api: 'https://json02.heimuer.xyz',
+        api: 'https://img.smdyw.top',
         name: '黑木耳',
-        detail: 'https://heimuer.xyz'
+        detail: 'https://img.smdyw.top'
     },
     tyyszy: {
         api: 'https://tyyszy.com',
